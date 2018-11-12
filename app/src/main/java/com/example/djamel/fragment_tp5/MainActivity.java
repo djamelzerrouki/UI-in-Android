@@ -145,6 +145,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1: fragment=new fragment2(); break;
                 case 2: fragment=new fragment3(); break;
                 case 3: fragment=new fragment4(); break;
+               case 4: fragment=new fragment5(); break;
 
             }
             // getItem is called to instantiate the fragment for the given page.
@@ -155,7 +156,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 4;
-        }
+            return 5;
     }
-}
+}}
